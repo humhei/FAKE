@@ -127,3 +127,10 @@ group netcore
     nuget System.IO.Compression
     nuget System.IO.Compression.ZipFile
     nuget System.Runtime.Loader
+group Fable
+    source https://api.nuget.org/v3/index.json
+    storage: none
+    
+    clitool dotnet-fable
+    nuget Fable.Core
+    nuget Fable.Import.Browser

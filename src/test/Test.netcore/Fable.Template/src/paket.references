@@ -1,0 +1,3 @@
+group Fable
+Fable.Core
+Fable.Import.Browser

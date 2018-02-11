@@ -74,7 +74,7 @@ let getFakeExecutionContext (e:RuntimeContext) =
   match e with
   | RuntimeContext.UnknownObj _
   | RuntimeContext.Unknown -> None
-  | RuntimeContext.Fake e -> Some e
+  | RuntimeContext.Fake e ->    Some e
 
 let getFakeContext name (f:FakeExecutionContext)  = 
   match f.Context.TryGetValue(name) with

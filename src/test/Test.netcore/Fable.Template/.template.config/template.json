@@ -1,0 +1,14 @@
+{
+  "author": "Alfonso Garcia-Caro",
+  "classifications": [ "Fable" ],
+  "name": "Simple Fable App",
+  "tags": {
+    "language": "F#",
+    "type": "project"
+  },
+  "identity": "Fable.Template",
+  "groupIdentity": "Fable",
+  "shortName": "fable",
+  "sourceName": "FableTemplate",
+  "preferNameDirectory": true
+}
